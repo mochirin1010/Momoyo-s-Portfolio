@@ -501,6 +501,11 @@ div.active {
   margin-left: 45%;
 }
 
+.bottom {
+  margin: 30px auto;
+  width: 610px;
+}
+
 @media  screen and (max-width: 1100px) {
   .about-pad01 img {
     margin-left: 0%;
@@ -539,6 +544,10 @@ div.active {
   }
   .about-pad02 p {
     left: 8%;
+  }
+  .bottom {
+    margin: 15px auto;
+    width: 80%;
   }
 }
 
