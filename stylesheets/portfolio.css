@@ -146,8 +146,7 @@ nav {
   .nav-list {
     display: none;
   }
-  .menu-btn,
-  .close-btn {
+  .menu-btn {
     z-index: 2;
     width: 45px;
     height: 45px;
@@ -157,29 +156,13 @@ nav {
     cursor: pointer;
   }
   .menu {
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 1;
     width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     background: rgb(255, 250, 254);
   }
   .menu li {
     padding: 3px;
     text-align: center;
     box-sizing: border-box;
-  }
-  .menu {
-    transform: translateX(-100vw);
-    transition: all 0.4s linear;
-  }
-  .menu.is-active{
-    transform: translateX(0);
   }
 }
 

@@ -1,10 +1,13 @@
 $(function(){
-  $('.menu-btn').click(function() {
-    $('.menu').addClass('is-active');
-  });
-  $('.close-btn').click(function() {
-    $('.menu').removeClass('is-active');
-  });
+	$(".menu-btn").click(function() {
+		$(".menu").slideToggle("500",function(){
+      if ($("#menu-btn").text() === 'close') {
+        $("#menu-btn").text('menu');
+      } else {
+        $("#menu-btn").text('close');
+      }
+    });
+	});
 
   $('.works-ex-1').click(function() {
     $('.works-1').addClass('works-active');
