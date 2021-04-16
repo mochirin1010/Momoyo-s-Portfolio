@@ -188,6 +188,12 @@ nav {
   opacity: 0.8;
 }
 
+@media screen and (max-width: 500px) {
+  .profile-page a {
+    font-size: 0.9em;
+  }
+}
+
 /* top--skill============================= */
 #skill {
   background-color: rgb(255, 250, 254);
